@@ -6,24 +6,24 @@ ls –l
 cat myfile  
 ls –al /usr/src/linux
 
-• Execute a command in background. For example: 
+• Execute a command in background. For example:   
 ls -l &  
 ls –al /usr/src/linux &  
 
-• Redirect the standard output of a command to a file. For example: 
+• Redirect the standard output of a command to a file. For example:   
 ls -l > outfile  
 ls -l >> outfile  
 ls –al /usr/src/linux > outfile2  
 ls –al /usr/src/linux >>outfile2  
 
-• Redirect the standard input of a command to come from a file. For example: 
+• Redirect the standard input of a command to come from a file. For example:   
 grep disk < outfile  
 grep linux < outfile2  
 
-• Execute multiple commands connected by a single shell pipe. For example:  
+• Execute multiple commands connected by a single shell pipe. For example:    
 ls –al /usr/src/linux | grep linux  
 
-• Execute the cd and pwd commands
+• Execute the cd and pwd commands  
 cd some_path  
 pwd  
 
