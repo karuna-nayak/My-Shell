@@ -3,8 +3,11 @@ Implements Shell or Command Line Interpreter (e.g. to replace /bin/bash for simp
 The shell can execute below commands:
 Execute a single command with up to four command line arguments (including command line arguments with associated flags). For example:
 ls –l 
+
 cat myfile
+
 ls –al /usr/src/linux
+
 
 • Execute a command in background. For example: 
 ls -l &
